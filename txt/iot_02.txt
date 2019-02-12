@@ -1,0 +1,11 @@
+# IoT Developer Show Season 2 - Lecture 2
+# Topic:
+# OpenVINO Toolkit and Two Hardware Development Kits
+
+Comprised of two things: Deep Learning Deployment Toolkit + Traditional Computer
+Vision Toolkit
+
+1. Deep Learning Deployment Toolkit
+   Inference Engine
+   Model Optimizer
+   Set of Prebuilt Deep Learning Models
