@@ -11,11 +11,11 @@ import cv2
 # ------------------------------------------------------------------------------
 # Specify the Caffe root and model path.
 # ------------------------------------------------------------------------------
-caffe_root = ''
-image = cv2.imread()
-labels_file = caffe_root + ''
-prototxt = caffe_root + ''
-model = caffe_root + ''
+caffe_root = '/home/tay/anaconda3/envs/caffe'
+image = cv2.imread('/opt/intel/computer_vision_sdk/inference_engine/samples/end2end_video_analytics/test_content/image/cars_768x768.bmp')
+labels_file = '/opt/intel/computer_vision_sdk/inference_engine/samples/end2end_video_analytics/test_content/IR/SSD/pascal_voc_classes.txt'
+prototxt = '/opt/intel/computer_vision_sdk/deployment_tools/model_downloader/object_detection/common/mobilenet-ssd/caffe/mobilenet-ssd.prototxt'
+model = '/opt/intel/computer_vision_sdk/deployment_tools/model_downloader/object_detection/common/mobilenet-ssd/caffe/mobilenet-ssd.caffemodel'
 
 # ------------------------------------------------------------------------------
 # Usual Image Classification code with a slight change. Instead of pure OpenCV
